@@ -445,6 +445,32 @@ h1 span {
         padding: 0 1rem;
     }
 
+    header nav {
+        width: 100%;
+        padding: 0 1rem;
+        overflow-x: auto;
+    }
+
+    nav .menu a {
+        margin-left: 15px;
+        font-size: 12px;
+    }
+
+    nav .logo {
+        width: 100px;
+    }
+
+    .hero .text {
+        width: 95%;
+        text-align: center;
+    }
+
+    .hero .text .btn {
+        display: block;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
     .menu {
         gap: 0.8rem;
         font-size: 0.75rem;
