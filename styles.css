@@ -440,6 +440,7 @@ h1 span {
 
 /* ========== RESPONSIVE STYLES ========== */
 @media (max-width: 768px) {
+
     nav {
         padding: 0 1rem;
     }
@@ -449,25 +450,66 @@ h1 span {
         font-size: 0.75rem;
     }
 
-    h1 {
+    .hero .text h4 {
+        font-size: 22px;
+    }
+
+    .hero .text h1 {
+        font-size: 36px;
+    }
+
+    .hero .text h1 span {
+        font-size: 45px;
+    }
+
+    .section-title {
         font-size: 2.5rem;
     }
 
-    h2 {
-        font-size: 1.8rem;
+    .models-card {
+        transform: skew(0deg);
+        height: 350px;
+    }
+
+    .models-card:hover {
+        transform: skew(0deg) scale(1.05);
+    }
+
+    .content-wrap {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        flex-direction: column;
+    }
+
+    h1 {
+        font-size: 2.5rem;
     }
 }
 
 @media (max-width: 480px) {
+
     .menu {
         display: none;
     }
 
-    h1 {
-        font-size: 2rem;
+    .hero .text h4 {
+        font-size: 18px;
     }
 
-    h2 {
-        font-size: 1.5rem;
+    .hero .text h1 {
+        font-size: 28px;
+    }
+
+    .hero .text h1 span {
+        font-size: 36px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        letter-spacing: -1px;
+    }
+
+    h1 {
+        font-size: 2rem;
     }
 }
